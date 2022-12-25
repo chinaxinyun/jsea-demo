@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: jsea-bus-sample
+  cloud:
+    jsea:
+      server-addr: chinaxinyun.com:80
+      access-key: public
+      secret-key: 38EA48A84E8500B1DE7828A6E76910F8

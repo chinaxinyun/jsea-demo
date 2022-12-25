@@ -1,0 +1,7 @@
+server:
+  port: 8001
+election:
+  enabled: false
+  data-path: ./data
+  port: 8081
+  server-list: 192.168.31.160:9091,192.168.31.160:9092,192.168.31.160:9093

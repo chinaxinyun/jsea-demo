@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: jsea-gateway-sample
+  cloud:
+    jsea:
+      jwt-secret: 123456
+      server-addr: chinaxinyun.com:80
+      access-key: public
+      secret-key: 38EA48A84E8500B1DE7828A6E76910F8
+    gateway:
+      httpclient:
+        pool:
+          max-idle-time: 3000
+server:
+  port: 8002
